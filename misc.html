@@ -35,8 +35,8 @@
             <h2>📚 Publications and Preprints</h2>
     <ul id="publications-list"></ul>
 
-    <!-- <h2>📂 Other Materials</h2>
-    <ul id="other-resources-list"></ul> -->
+    <h2>📂 Other Materials</h2>
+    <ul id="other-resources-list"></ul>
 
     <script>
         // Fetch data from JSON
@@ -52,12 +52,12 @@
                 });
 
                 // // Load other resources
-                // const resList = document.getElementById("other-resources-list");
-                // data.other_resources.forEach(res => {
-                //     const li = document.createElement("li");
-                //     li.innerHTML = `<a href="${res.link}">${res.name}</a>`;
-                //     resList.appendChild(li);
-                // });
+                const resList = document.getElementById("other-resources-list");
+                data.other_resources.forEach(res => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<a href="${res.link}">${res.name}</a>`;
+                    resList.appendChild(li);
+                });
             })
             .catch(error => console.error('Error loading miscellaneous data:', error));
     </script>

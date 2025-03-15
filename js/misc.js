@@ -11,17 +11,17 @@
         "authors": "Colazzo, I., Koch, A., Martin-Lyons, I., Truman, P. J.",
         "year": 2024,
         "link": "https://arxiv.org/abs/2404.15929"
+      };
+    ]
+    "other_resources": [
+      {
+        "name": "Presentation Slides from Event 1",
+        "link": "link-to-slides1.pdf"
+      },
+      {
+        "name": "Dataset Example",
+        "link": "link-to-dataset1.zip"
       }
-    ],
-    // "other_resources": [
-    //   {
-    //     "name": "Presentation Slides from Event 1",
-    //     "link": "link-to-slides1.pdf"
-    //   },
-    //   {
-    //     "name": "Dataset Example",
-    //     "link": "link-to-dataset1.zip"
-    //   }
-    // ]
+    ]
   }
   
