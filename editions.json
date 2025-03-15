@@ -58,12 +58,12 @@
         "poster": "img/exeter_poster2.png", 
         "posterPdf":"file/exeter_poster2.pdf",
         "talks": [
-        {"speaker": "Fiona Torzewska ", "topic": "", "time": "09:30-10:30"},
-        {"speaker": "Senne Trappeniers", "topic": "", "time": "11:00-12:00"},
-        {"speaker": "Arne Van Antwerpen", "topic": "", "time": "14:30-15:30"},
-        {"speaker": "Leandro Vendramin", "topic": "", "time": "09:30-10:30"},
-        {"speaker": "Paul Truman", "topic": "", "time": "11:00-12:00"},
-        {"speaker": "Isabel Martin-Lyons", "topic": "", "time": "14:30-15:30"}
+        {"speaker": "Fiona Torzewska ", "topic": "Classification of charge-conserving loop braid representations", "time": "09:30-10:30"},
+        {"speaker": "Senne Trappeniers", "topic": "A Lazard correspondence between pre-Lie rings and braces", "time": "11:00-12:00"},
+        {"speaker": "Arne Van Antwerpen", "topic": "Nilpotency in skew braces", "time": "14:30-15:30"},
+        {"speaker": "Leandro Vendramin", "topic": "L-algebras: the Yang–Baxter equation and algebraic logic", "time": "09:30-10:30"},
+        {"speaker": "Paul Truman", "topic": "Skew bracoids and the Yang-Baxter equation", "time": "11:00-12:00"},
+        {"speaker": "Isabel Martin-Lyons", "topic": "Almost Classical Skew Bracoids and the Yang-Baxter Equation", "time": "14:30-15:30"}
         ]
       },
       {
@@ -103,7 +103,7 @@
         "posterPdf":"file/keele_poster.pdf",
         "talks": [
         {"speaker": "Leandro Vendramin", "topic": "Some problems on skew braces", "time": "09:00-09:30"},
-        {"speaker": "Arne Van Antwerpen", "topic": " Nilpotency in skew braces: an overview.", "time": "09:30-10:30"},
+        {"speaker": "Arne Van Antwerpen", "topic": "Nilpotency in skew braces: an overview", "time": "09:30-10:30"},
         {"speaker": "Silvia Properzi", "topic": "A graph associated with finite skew braces", "time": "11:00-12:00"},
         {"speaker": "Ilaria Colazzo", "topic": "The structure monoid of set-theoretic solutions to the YBE", "time": "12:00-13:00"},
         {"speaker": "Lorenzo Stefanello", "topic": "Skew braces and the Hopf-Galois correspondence", "time": "14:00-15:00"},
