@@ -28,15 +28,15 @@
       <div class="content-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2 style="text-align: right">Organisers</h2>
+            <h2 style="text-align: right">Miscellaneous</h2>
             <p class="text text-large", style="text-align: right">
               Here you'll find publications and other materials that emerged from or were inspired by the meetings.
             </p>
-            <h2>📚 Publications</h2>
+            <h2>📚 Publications and Preprints</h2>
     <ul id="publications-list"></ul>
 
-    <h2>📂 Other Materials</h2>
-    <ul id="other-resources-list"></ul>
+    <!-- <h2>📂 Other Materials</h2>
+    <ul id="other-resources-list"></ul> -->
 
     <script>
         // Fetch data from JSON
@@ -51,13 +51,13 @@
                     pubList.appendChild(li);
                 });
 
-                // Load other resources
-                const resList = document.getElementById("other-resources-list");
-                data.other_resources.forEach(res => {
-                    const li = document.createElement("li");
-                    li.innerHTML = `<a href="${res.link}">${res.name}</a>`;
-                    resList.appendChild(li);
-                });
+                // // Load other resources
+                // const resList = document.getElementById("other-resources-list");
+                // data.other_resources.forEach(res => {
+                //     const li = document.createElement("li");
+                //     li.innerHTML = `<a href="${res.link}">${res.name}</a>`;
+                //     resList.appendChild(li);
+                // });
             })
             .catch(error => console.error('Error loading miscellaneous data:', error));
     </script>
