@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Project Title</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 style="text-align: right">Organisers</h2>
+            <p class="text text-large", style="text-align: right">
+              Here you'll find publications and other materials that emerged from or were inspired by the meetings.
+            </p>
+            <h2>📚 Publications</h2>
+    <ul id="publications-list"></ul>
+
+    <h2>📂 Other Materials</h2>
+    <ul id="other-resources-list"></ul>
+
+    <script>
+        // Fetch data from JSON
+        fetch('js/misc.json')
+            .then(response => response.json())
+            .then(data => {
+                // Load publications
+                const pubList = document.getElementById("publications-list");
+                data.publications.forEach(pub => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<a href="${pub.link}">${pub.title}</a> – ${pub.authors}, ${pub.year}`;
+                    pubList.appendChild(li);
+                });
+
+                // Load other resources
+                const resList = document.getElementById("other-resources-list");
+                data.other_resources.forEach(res => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<a href="${res.link}">${res.name}</a>`;
+                    resList.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Error loading miscellaneous data:', error));
+    </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
