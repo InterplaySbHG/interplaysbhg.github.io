@@ -32,6 +32,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     talkItem.textContent = `${talk.speaker} - ${talk.topic} (Time: ${talk.time})`;
                     talksList.appendChild(talkItem);
                 });
+                // Add PDF link for poster
+                const pdfLink = document.createElement('a');
+                pdfLink.href = edition.posterPdf;
+                pdfLink.textContent = 'Download Poster (PDF)';
+                pdfLink.target = "_blank";  // Open in a new tab
+                document.getElementById('edition-poster-link').appendChild(pdfLink);
+
             } else {
                 // Handle the case where the edition was not found
                 document.getElementById('edition-title').textContent = "Edition not found";
