@@ -11,7 +11,7 @@
         "authors": "Colazzo, I., Koch, A., Martin-Lyons, I., Truman, P. J.",
         "year": 2024,
         "link": "https://arxiv.org/abs/2404.15929"
-      };
+      }
     ]
     "other_resources": [
       {
