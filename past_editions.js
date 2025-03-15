@@ -3,34 +3,49 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('editions.json')
         .then(response => response.json())
         .then(data => {
-            // Get the container where the editions will be displayed
             const editionsList = document.getElementById('editions-list');
 
-            // Hide bullet points by modifying style
-            editionsList.style.listStyleType = 'none';
-            editionsList.style.paddingLeft = '0';
+            // Group editions by year
+            const groupedByYear = {};
 
-            // Loop through each edition and create a list item
             data.editions.forEach(edition => {
-                const editionItem = document.createElement('li');
-                
-                // Format organizers list with only names (no affiliation)
-                const organizers = edition.organizers.map(organizer => organizer.name).join(', ');
+                const year = edition.date.split('/')[0];
+                if (!groupedByYear[year]) {
+                    groupedByYear[year] = [];
+                }
+                groupedByYear[year].push(edition);
+            });
 
-                editionItem.innerHTML = `
-                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                        <img src="${edition.poster}" alt="Poster for ${edition.title}" class="edition-poster" style="width: 150px; height: auto; margin-right: 20px;">
-                        <div>
-                            <h3><a href="edition.html?edition=${edition.id}">${edition.title}</a></h3>
-                            <p><strong>Date:</strong> ${edition.date}</p>
-                            <p><strong>Location:</strong> ${edition.location}</p>
-                            <p><strong>Organizers:</strong> ${organizers}</p>
-                            <p><a href="${edition.posterPdf}" target="_blank">Download Poster (PDF)</a></p>
+            // Reverse the years to show most recent first
+            const sortedYears = Object.keys(groupedByYear).reverse();
+
+            sortedYears.forEach(year => {
+                const yearSection = document.createElement('section');
+                const yearTitle = document.createElement('h2');
+                yearTitle.textContent = `${year}`;
+                yearSection.appendChild(yearTitle);
+
+                const yearList = document.createElement('div'); // Change <ul> to <div>
+                groupedByYear[year].forEach(edition => {
+                    const editionItem = document.createElement('div'); // Change <li> to <div>
+                    const organizers = edition.organizers.map(organizer => organizer.name).join(', ');
+                    editionItem.innerHTML = `
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <img src="${edition.poster}" alt="Poster for ${edition.title}" class="edition-poster" style="width: 150px; height: auto; margin-right: 20px;">
+                            <div>
+                                <h3><a href="edition.html?edition=${edition.id}">${edition.title}</a></h3>
+                                <p>Date: ${edition.date}</p>
+                                <p>Location: ${edition.location}</p>
+                                <p>Organizers: ${organizers}</p>
+                                <p><a href="${edition.posterPdf}" target="_blank">Download Poster (PDF)</a></p>
+                            </div>
                         </div>
-                    </div>
-                `;
-                
-                editionsList.appendChild(editionItem);
+                    `;
+                    yearList.appendChild(editionItem);
+                });
+
+                yearSection.appendChild(yearList);
+                editionsList.appendChild(yearSection);
             });
         })
         .catch(error => {
