@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             <img src="${edition.poster}" alt="Poster for ${edition.title}" class="edition-poster" style="width: 150px; height: auto; margin-right: 20px;">
                             <div>
                                 <h3><a href="edition.html?edition=${edition.id}">${edition.title}</a></h3>
-                                <p>Date: ${edition.date}</p>
-                                <p>Location: ${edition.location}</p>
-                                <p>Organizers: ${organizers}</p>
+                                <p><strong>Date:</strong> ${edition.date}</p>
+                                <p><strong>Location:</strong> ${edition.location}</p>
+                                <p><strong>Organizers:</strong> ${organizers}</p>
                                 <p><a href="${edition.posterPdf}" target="_blank">Download Poster (PDF)</a></p>
                             </div>
                         </div>
