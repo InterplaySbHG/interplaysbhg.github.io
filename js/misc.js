@@ -1,27 +1,29 @@
 {
     "publications": [
       {
-        "title": "Title of Paper 1",
-        "authors": "Author A, Author B",
-        "year": 2023,
-        "link": "link-to-paper1.pdf"
+        "title": "On the cabling of non-involutive set-theoretic solutions of the Yang–Baxter equation",
+        "authors": "Colazzo I., Antwerpen, A. V.",
+        "year": 2024,
+        "journal": "arXiv",
+        "link": "https://arxiv.org/abs/2410.23821"
       },
       {
-        "title": "Title of Paper 2",
-        "authors": "Author C, Author D",
+        "title": "Skew bracoids containing a skew brace",
+        "authors": "Colazzo, I., Koch, A., Martin-Lyons, I., Truman, P. J.",
         "year": 2024,
-        "link": "link-to-paper2.pdf"
+        "journal" : "arXiv",
+        "link": "https://arxiv.org/abs/2404.15929"
       }
     ],
-    "other_resources": [
-      {
-        "name": "Presentation Slides from Event 1",
-        "link": "link-to-slides1.pdf"
-      },
-      {
-        "name": "Dataset Example",
-        "link": "link-to-dataset1.zip"
-      }
-    ]
+    // "other_resources": [
+    //   {
+    //     "name": "Presentation Slides from Event 1",
+    //     "link": "link-to-slides1.pdf"
+    //   },
+    //   {
+    //     "name": "Dataset Example",
+    //     "link": "link-to-dataset1.zip"
+    //   }
+    // ]
   }
   
