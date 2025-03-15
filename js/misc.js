@@ -21,8 +21,16 @@
       "link": "slides/Brussels/caranti.pdf"
     },
     {
-      "name": "Silides: Marino Gran, Brussels 2025",
+      "name": "Slides: Marino Gran, Brussels 2025",
       "link": "slides/Brussels/gran.pdf"
+    },
+    {
+      "name": "Slides: Leandro Vendramin, Exeter 2024",
+      "link": "slides/Brussels/vendramin24.pdf"
+    }
+    {
+      "name": "Slides: Leandro Vendramin, Keele 2023",
+      "link": "slides/Brussels/vendramin23.pdf"
     }
   ]
 }

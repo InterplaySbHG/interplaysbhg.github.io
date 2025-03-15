@@ -1,0 +1,32 @@
+{
+    "editions": [
+      {
+        "id": "2025-01-20",
+        "title": "InterplaySBHB @ Brussles 2025",
+        "date": "2025-01-20",
+        "location": "Vrije University of Brussles",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds (UK)"},
+        {"name": "Paul Truman", "affiliation": "Keele University (UK)"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel (Belgium)"}
+      ],
+        "poster": "img/brussels_poster.png", 
+        "pdf":"file/brussels_poster.pdf",
+        "talks": [
+        {"speaker": "Andrea Caranti", "topic": "Finite p-groups of class two with a large/small multiple holomorph", "time": "09:30-10:30"},
+        {"speaker": "Marino Gran", "topic": "Semi-abelian categories, cocommutative Hopf algebras and Hopf braces", "time": "11:00-12:00"}
+        ]
+      },
+      {
+        "id": "edition2",
+        "title": "Edition 2",
+        "date": "2023-06-01",
+        "location": "Location 2",
+        "organizers": ["Organizer 3", "Organizer 4"],
+        "poster": "images/poster2.jpg"
+      }
+    ]
+  }
+  
+
+  
