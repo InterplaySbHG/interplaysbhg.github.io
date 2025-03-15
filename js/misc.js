@@ -18,19 +18,39 @@
   "other_resources": [
     {
       "name": "Slides: Andrea Caranti, Burssels 2025",
-      "link": "slides/Brussels/caranti.pdf"
+      "link": "slides/caranti.pdf"
     },
     {
       "name": "Slides: Marino Gran, Brussels 2025",
-      "link": "slides/Brussels/gran.pdf"
+      "link": "slides/gran.pdf"
     },
     {
       "name": "Slides: Leandro Vendramin, Exeter 2024",
-      "link": "slides/Brussels/vendramin24.pdf"
-    }
+      "link": "slides/vendramin24.pdf"
+    },
     {
       "name": "Slides: Leandro Vendramin, Keele 2023",
-      "link": "slides/Brussels/vendramin23.pdf"
+      "link": "slides/vendramin23.pdf"
+    },
+    {
+      "name": "Poster: InterplaySBHG @ Brussles 2025",
+      "link": "file//file/brussels_poster.pdf"
+    },
+    {
+      "name": "Poster: InterplaySBHG @ Keele 2024",
+      "link": "file//file/keele_poster2.pdf"
+    },
+    {
+      "name": "Poster: InterplaySBHG @ Exeter 2024",
+      "link": "file//file/exeter_poster2.pdf"
+    },
+    {
+      "name": "Poster: InterplaySBHG @ Exeter 2023",
+      "link": "file//file/exeter_poster.pdf"
+    },
+    {
+      "name": "Poster: InterplaySBHG @ Keele 2023",
+      "link": "file//file/keele_poster.pdf"
     }
   ]
 }

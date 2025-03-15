@@ -2,28 +2,113 @@
     "editions": [
       {
         "id": "2025-01-20",
-        "title": "InterplaySBHB @ Brussles 2025",
-        "date": "2025-01-20",
-        "location": "Vrije University of Brussles",
+        "title": "InterplaySBHG @ Brussles 2025",
+        "date": "2025/01/20",
+        "location": "Vrije Universiteit Brussel (Belgium)",
         "organizers": [
-        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds (UK)"},
-        {"name": "Paul Truman", "affiliation": "Keele University (UK)"},
-        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel (Belgium)"}
+        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Arne Van Antwerpen", "affiliation": "University of Ghent, Belgium"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
       ],
         "poster": "img/brussels_poster.png", 
-        "pdf":"file/brussels_poster.pdf",
+        "posterPdf":"file/brussels_poster.pdf",
         "talks": [
         {"speaker": "Andrea Caranti", "topic": "Finite p-groups of class two with a large/small multiple holomorph", "time": "09:30-10:30"},
-        {"speaker": "Marino Gran", "topic": "Semi-abelian categories, cocommutative Hopf algebras and Hopf braces", "time": "11:00-12:00"}
+        {"speaker": "Marino Gran", "topic": "Semi-abelian categories, cocommutative Hopf algebras and Hopf braces", "time": "11:00-12:00"},
+        {"speaker": "Davide Ferri", "topic": "Matched pairs and Yetter-Drinfeld braces (joint work with A. Sciandra)", "time": "12:00-12:30"},
+        {"speaker": "Paul Truman", "topic": "Two sided bracoids, holomorphs, centralisers, and all that", "time": "14:30-15:30"},
+        {"speaker": "Charlotte Roelants", "topic": "Killing Forms on Finite Groups", "time": "16:00-16:30"},
+        {"speaker": "Paolo Saracco:", "topic": "Trusses, heaps of modules, and set-theoretic solutions to the Yang-Baxter equation", "time": "16:30-17:30"}
         ]
       },
       {
-        "id": "edition2",
-        "title": "Edition 2",
-        "date": "2023-06-01",
-        "location": "Location 2",
-        "organizers": ["Organizer 3", "Organizer 4"],
-        "poster": "images/poster2.jpg"
+        "id": "2024-07-30",
+        "title": "InterplaySBHG @ Keele 2024",
+        "date": "2024/07/30-31",
+        "location": "Keele University",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Fiona Torzewska", "affiliation": "University of Bristol, UK"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
+      ],
+        "poster": "img/keele_poster2.png", 
+        "posterPdf":"file/keele_poster2.pdf",
+        "talks": [
+        {"speaker": "Tomasz Brzezinski", "topic": "Hopf-Galois extensions: an NCG perspective", "time": "09:30-10:30"},
+        {"speaker": "Nigel Byott", "topic": " Computational Approaches to a Conjecture on Magmas Related in Quasilinear Cycle Sets of Prime Order", "time": "10:30-11:00"},
+        {"speaker": "Ilaria Colazzo", "topic": "Matched product of groups and the pentagon equation", "time": "11:30-12:00"},
+        {"speaker": "Paul Truman", "topic": "Skew bracoids and the Yang-Baxter equation", "time": "09:30-10:30"},
+        {"speaker": "Isabel Martin-Lyons", "topic": "Almost Classical Solutions to the Yang-Baxter Equation", "time": "10:30-11:00"},
+        {"speaker": "Andrew Darlington", "topic": "A computer database of Hopf-Galois structures on separable extensions and skew bracoids", "time": "11:30-12:00"}
+        ]
+      },
+      {
+        "id": "2024-04-16",
+        "title": "InterplaySBHG @ Exeter 2024",
+        "date": "2024/04/16-17",
+        "location": "University of Exeter",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Exeter, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Fiona Torzewska", "affiliation": "University of Bristol, UK"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
+      ],
+        "poster": "img/exeter_poster2.png", 
+        "posterPdf":"file/exeter_poster2.pdf",
+        "talks": [
+        {"speaker": "Fiona Torzewska ", "topic": "", "time": "09:30-10:30"},
+        {"speaker": "Senne Trappeniers", "topic": "", "time": "11:00-12:00"},
+        {"speaker": "Arne Van Antwerpen", "topic": "", "time": "14:30-15:30"},
+        {"speaker": "Leandro Vendramin", "topic": "", "time": "09:30-10:30"},
+        {"speaker": "Paul Truman", "topic": "", "time": "11:00-12:00"},
+        {"speaker": "Isabel Martin-Lyons", "topic": "", "time": "14:30-15:30"}
+        ]
+      },
+      {
+        "id": "2024-04-16",
+        "title": "InterplaySBHG @ Exeter 2023",
+        "date": "2024/04/16-17",
+        "location": "University of Exeter",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Exeter, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
+      ],
+        "poster": "img/exeter_poster.png", 
+        "posterPdf":"file/exeter_poster.pdf",
+        "talks": [
+        {"speaker": "Eric Jespers", "topic": "Algebraic structure of Yang-Baxter algebras", "time": "14:30-15:30"},
+        {"speaker": "Paul Truman", "topic": "Skew bracoids and the Yang–Baxter equation", "time": "15:40-16:10"},
+        {"speaker": "Isabel Martin-Lyons", "topic": "Skew Bracoids in the Holomorph", "time": "16:10-16:40"},
+        {"speaker": "Joao Faria Martins", "topic": "Homotopy-theoretical constructions of biracks, welded-biracks, and generalisations", "time": "16:40-17:40"},
+        {"speaker": "Arne Van Antwerpen", "topic": "The non-fixing graph of a skew brace", "time": "09:30-10:30"},
+        {"speaker": "Senne Trappenniers", "topic": "Indecomposable solutions of the Yang–Baxter equation, generators of skew braces and Hopf–Galois structures", "time": "10:30-11:00"},
+        {"speaker": "Nigel Byott", "topic": "A Family of Simple Skew Braces", "time": "10:50-11:50"},
+        {"speaker": "Ilaria Colazzo", "topic": "Cabling for non-involutive solutions", "time": "11:50-12:20"}
+        ]
+      },
+      {
+        "id": "2023-04-18",
+        "title": "InterplaySBHG @ Keele 2023",
+        "date": "2024/04/18",
+        "location": "Keele University",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
+      ],
+        "poster": "img/keele_poster.png", 
+        "posterPdf":"file/keele_poster.pdf",
+        "talks": [
+        {"speaker": "Leandro Vendramin", "topic": "Some problems on skew braces", "time": "09:00-09:30"},
+        {"speaker": "Arne Van Antwerpen", "topic": " Nilpotency in skew braces: an overview.", "time": "09:30-10:30"},
+        {"speaker": "Silvia Properzi", "topic": "A graph associated with finite skew braces", "time": "11:00-12:00"},
+        {"speaker": "Ilaria Colazzo", "topic": "The structure monoid of set-theoretic solutions to the YBE", "time": "12:00-13:00"},
+        {"speaker": "Lorenzo Stefanello", "topic": "Skew braces and the Hopf-Galois correspondence", "time": "14:00-15:00"},
+        {"speaker": "Paul Truman", "topic": "Skew bracoids and Hopf-Galois structures on separable extensions", "time": "15:30-16:30"}
+        ]
       }
     ]
   }
