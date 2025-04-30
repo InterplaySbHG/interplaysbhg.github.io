@@ -1,6 +1,23 @@
 {
     "editions": [
       {
+        "id": "2025-05-15",
+        "title": "InterplaySBHG @ Leeds 2025",
+        "date": "2025/01/20",
+        "location": "University of Leeds (UK)",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
+      ],
+        "poster": "img/leeds_poster.png", 
+        "posterPdf":"file/leeds_poster.pdf",
+        "talks": [
+        {"speaker": "TBA", "topic": "TBA", "time": "TBA"}
+      
+        ]
+      },
+      {
         "id": "2025-01-20",
         "title": "InterplaySBHG @ Brussles 2025",
         "date": "2025/01/20",
