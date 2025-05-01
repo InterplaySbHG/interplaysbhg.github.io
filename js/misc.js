@@ -33,6 +33,10 @@
       "link": "slides/vendramin23.pdf"
     },
     {
+      "name": "Poster: InterplaySBHG @ Leeds 2025",
+      "link": "file//file/leeds_poster.pdf"
+    },
+    {
       "name": "Poster: InterplaySBHG @ Brussles 2025",
       "link": "file//file/brussels_poster.pdf"
     },
