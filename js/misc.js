@@ -34,27 +34,27 @@
     },
     {
       "name": "Poster: InterplaySBHG @ Leeds 2025",
-      "link": "file//file/leeds_poster.pdf"
+      "link": "file/leeds_poster.pdf"
     },
     {
       "name": "Poster: InterplaySBHG @ Brussles 2025",
-      "link": "file//file/brussels_poster.pdf"
+      "link": "file/brussels_poster.pdf"
     },
     {
       "name": "Poster: InterplaySBHG @ Keele 2024",
-      "link": "file//file/keele_poster2.pdf"
+      "link": "file/keele_poster2.pdf"
     },
     {
       "name": "Poster: InterplaySBHG @ Exeter 2024",
-      "link": "file//file/exeter_poster2.pdf"
+      "link": "file/exeter_poster2.pdf"
     },
     {
       "name": "Poster: InterplaySBHG @ Exeter 2023",
-      "link": "file//file/exeter_poster.pdf"
+      "link": "file/exeter_poster.pdf"
     },
     {
       "name": "Poster: InterplaySBHG @ Keele 2023",
-      "link": "file//file/keele_poster.pdf"
+      "link": "file/keele_poster.pdf"
     }
   ]
 }
