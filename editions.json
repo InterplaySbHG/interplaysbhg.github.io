@@ -1,9 +1,29 @@
 {
     "editions": [
+            {
+        "id": "2025-09-03",
+        "title": "InterplaySBHG @ Keele 2025",
+        "date": "2025/09/03-04",
+        "location": "University of Keele (UK)",
+        "organizers": [
+        {"name": "Ilaria Colazzo", "affiliation": "University of Leeds, UK"},
+        {"name": "Paul Truman", "affiliation": "Keele University, UK"},
+        {"name": "Leandro Vendramin", "affiliation": "Vrije Universiteit Brussel, Belgium"}
+      ],
+        "poster": "img/keele_poster3.png", 
+        "posterPdf":"file/keele_poster3.pdf",
+        "talks": [
+        {"speaker": "Andrew Darlington", "topic": "Hopf-Galois theory and Cunningham chains"},
+        {"speaker": "Gareth Tracey", "topic": "On the Hasse-Norm Principle"},
+        {"speaker": "Hal Simpson", "topic": "Bicyclic biskew braces"},
+        {"speaker": "Isabel Martin-Lyons", "topic": "A review of the theory of skew bracoids"},
+        {"speaker": "Paul Truman", "topic": "Skew braces and abelian maps on groups of squarefree order"}
+        ]
+      },
       {
         "id": "2025-05-15",
         "title": "InterplaySBHG @ Leeds 2025",
-        "date": "2025/01/20",
+        "date": "2025/05/15",
         "location": "University of Leeds (UK)",
         "organizers": [
         {"name": "Ilaria Colazzo", "affiliation": "University of Leeds, UK"},
@@ -13,8 +33,11 @@
         "poster": "img/leeds_poster.png", 
         "posterPdf":"file/leeds_poster.pdf",
         "talks": [
-        {"speaker": "TBA", "topic": "TBA", "time": "TBA"}
-      
+        {"speaker": "Vincent Caudrelier", "topic": "Set-theoretical Yang-Baxter and reflection equations and soliton interactions"},
+        {"speaker": "George Altmann", "topic":"A Higher Peripheral System for Welded Knots"},
+        {"speaker": "Jack Romo", "topic": "Once-Extended Dijkgraaf-Witten Theories with General Homotopy Finite Target Spaces "},
+        {"speaker": "Benjamin Morris", "topic": "A Diagram Category for Non-orientable Surfaces"},
+        {"speaker":"Eric Rowell", "topic": "Subobjects and Quotient Objects of Yang-Baxter Matrices"}
         ]
       },
       {

@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const talksList = document.getElementById('talk-list');
                 edition.talks.forEach(talk => {
                     const talkItem = document.createElement('li');
-                    talkItem.textContent = `${talk.speaker} - ${talk.topic} (Time: ${talk.time})`;
+                    talkItem.textContent = `${talk.speaker} - ${talk.topic}`;
                     talksList.appendChild(talkItem);
                 });
                 // Add PDF link for poster
